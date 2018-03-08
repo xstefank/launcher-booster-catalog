@@ -1,0 +1,16 @@
+source:
+  git:
+    url: https://github.com/nexus-Six/wfswarm-rest-http-crud.git
+    ref: master
+metadata:
+  version:
+    name: 2017.10.0 (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: '8'
+  production:
+    source:
+      git:
+        ref: '8'
