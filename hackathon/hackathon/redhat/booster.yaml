@@ -1,0 +1,16 @@
+source:
+  git:
+    url: https://github.com/nexus-Six/wfswarm-rest-http-crud.git
+    ref: master
+metadata:
+  version:
+    name: 7.0.0.redhat-8 (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: 7.0.0-redhat-6
+  production:
+    source:
+      git:
+        ref: 7.0.0-redhat-6
